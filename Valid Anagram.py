@@ -20,4 +20,7 @@ def valid_anagram2(str1, str2):
     return False
 
 print(valid_anagram2('hola', 'halo'))
-#O(n)
+#O(str1 + str2)
+
+########
+

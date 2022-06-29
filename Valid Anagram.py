@@ -3,6 +3,9 @@ def valid_anagram(str1, str2):
 
 print(valid_anagram('hello', 'holle'))
 
+#O(nlogn)
+##################
+
 def valid_anagram2(str1, str2):
 
     if len(str1) == len(str2):
@@ -17,3 +20,4 @@ def valid_anagram2(str1, str2):
     return False
 
 print(valid_anagram2('hola', 'halo'))
+#O(n)
